@@ -62,9 +62,16 @@
       font-size: 0.9rem;
     }
   .contact-line {
-  text-align: center;
+  display: flex;
+  justify-content: center;   /* centers horizontally */
+  align-items: center;       /* centers vertically */
+  text-align: center;        /* centers text inside the line */
   font-size: 1.1rem;
   font-weight: 600;
+}
+
+.contact-line p {
+  margin: 0; /* removes default paragraph spacing */
 }
 
 .contact-line a {
